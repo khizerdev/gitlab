@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500&family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+body {
+  background: rgb(28,55,99);
+background: linear-gradient(120deg, rgba(28,55,99,1) 1%, rgba(108,50,79,1) 46%);
+font-family: 'Noto Serif', serif;
+height: 813px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.bg-img {
+  position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.right-box {
+  height: 100vh;
+}
+
+form > input {
+  background: transparent;
+  outline: 1px solid #fff;
+  border-radius: 30px;
+  height: 60px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border: none;
+}
+form > input::placeholder { 
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+form > input:focus-visible {
+  outline: 1px solid #28a745;
+  color: #fff;
+  outline:1px solid #fff;
+}
+form > input:focus {
+  outline: 1px solid #28a745;
+  color: #fff;
+}
+form > input:active {
+  outline: 1px solid #28a745;
+  color: #fff;
+}
+
+form > button {
+  background: #1C3763;
+  border: 1px solid #1C3763;
+  color: #fff;
+  outline: none;
+  border-radius: 30px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+form > button:hover {
+  transform: scale(1.05);
+}
+
+.font-small {
+  font-size: .75rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
